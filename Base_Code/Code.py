@@ -640,7 +640,7 @@ print(donation_addition({"John" : 18, "Bob" : 60, "Lisa" : 20, "Gerret" : 64}))"
         total += calories[fruit]
     return(total)
 print(fruit_calorie_counter(["Apple", "Apple", "Orange", "Grape"]))"""
-def majority_element(elements):
+"""def majority_element(elements):
     occurences = {}
     for elem in elements:
         if elem in occurences.keys():
@@ -652,4 +652,7 @@ def majority_element(elements):
         if (occurences[majority] < occurences[key]):
             majority = key
     return(majority)
-print(majority_element([3,2,3]))
+print(majority_element([3,2,3]))"""
+dic = {1 : 3, 2 : 3}
+if 2 in dic.keys():
+    print("n")
